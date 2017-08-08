@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description"    content="Aprendiendo HTML5">
+        <title>Estructurar contenido en HTML5</title>
+    </head>
+    <body>
+        <div class="contenedor">
+
+            <header role="banner">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo empresa">
+                </div>
+                <nav class="navegacion" role="navigation">
+                    <ul>    
+                        <li><a href="nosotros.html">Sobre nosotros</a></li>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="http://google.com" target="_blank">Ir a google</a></li>
+                        <li><a href="#noticias">Ir a noticias</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="contenido-principal" role="main">
+                <section>
+                    <h2>Nuestros cursos</h2>
+                    <div>
+                        <h3>HTML5</h3>
+                        <img src="img/html5.png">
+                        <a href="programa-html5.pdf" download>Descargar programa</a>
+                    </div>
+                    <div>
+                        <h3>CSS3</h3>
+                        <img src="img/css3.png">
+                    </div>
+                    <div>
+                        <h3>JavaScript</h3>
+                        <img src="img/js.jpg" height="200px">
+                    </div>
+                </section>
+                <section id="noticias">
+                    <h2>Últimas noticias</h2>
+                    <article role="article">
+                        <h3>Aprender a programar en el siglo 21 es muy importante.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iure, labore libero commodi, perspiciatis
+                        aperiam quam laboriosam, voluptate suscipit totam quaerat consequuntur similique iste? Sequi recusandae 
+                        deserunt, deleniti dicta quo.</p>
+                    </article>
+                    <article role="article">
+                        <h3>Aprender a programar en el siglo 21 es muy importante.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iure, labore libero commodi, perspiciatis
+                        aperiam quam laboriosam, voluptate suscipit totam quaerat consequuntur similique iste? Sequi recusandae 
+                        deserunt, deleniti dicta quo.</p>
+                    </article>
+                </section>
+            </main>
+
+            <aside role="complementary">
+                <h2>Proximos cursos</h2>
+                <div>
+                    <h3>PHP</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt veniam ratione adipisci, 
+                       dignissimos voluptas ullam!</p>
+                </div>
+                <div>
+                    <h3>MySQL</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt veniam ratione adipisci, 
+                       dignissimos voluptas ullam!</p>
+                </div>
+            </aside>
+
+        </div><!--.contenedor-->
+
+        <footer role="contentinfo">
+            <div class="nosotros">
+                <h3>Sobre nuestra escuela</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta dolore facere 
+                   repudiandae tempore rerum.</p>
+            </div>
+            
+            <div>
+                <nav class="navegacion">
+                    menu aqui
+                </nav>
+            </div>
+        </footer>
+
+    </body>
+</html>
